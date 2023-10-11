@@ -1,8 +1,10 @@
 import './App.css'
+import Navigation from './shared/Navigation/Navigation'
 
 function App() {
   return (
     <div>
+      <Navigation />
     </div>
   )
 }
