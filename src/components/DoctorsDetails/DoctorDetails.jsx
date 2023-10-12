@@ -18,7 +18,7 @@ const DoctorDetails = () => {
                         <p>{doctor.place}</p>
                         <div className="flex justify-between items-center">
                             <p>${doctor.Price}</p>
-                            <Link className="btn">Book Now</Link>
+                            <Link to={`/doctors/${doctor._id}`} className="btn">Book Now</Link>
                         </div>
                     </div>)
                 }
