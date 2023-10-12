@@ -28,8 +28,8 @@ const Doctors = () => {
     }
     return (
         <div className="bg-base-200">
-            <form onSubmit={handleAddDoctors} className="w-9/12 mx-auto py-20">
-                <div className="grid grid-cols-2 gap-5">
+            <form onSubmit={handleAddDoctors} className="w-11/12 lg:w-9/12 mx-auto py-20">
+                <div className="grid lg:grid-cols-2 gap-5">
                     <div className="form-control w-full">
                         <label className="label">
                             <span className="label-text">Name</span>
