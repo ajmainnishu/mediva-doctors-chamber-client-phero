@@ -37,7 +37,6 @@ const Booking = () => {
         const doctorName = form.doctorName.value;
         const expert = form.expert.value
         const pay = { name, email, date, doctorName, expert };
-        console.log(pay)
         fetch('http://localhost:5000/doctorsPaid', {
             method: 'POST',
             headers: {

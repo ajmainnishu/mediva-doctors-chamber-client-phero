@@ -6,6 +6,7 @@ import Home from "../components/Home/Home";
 import Doctors from "../components/Doctors/Doctors";
 import PrivateRoutes from "./PrivateRoutes";
 import Booking from "../components/Booking/Booking";
+import Client from "../components/Client/Client";
 
 const router = createBrowserRouter([
     {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
             {
                 path: 'login',
                 element: <Login />
+            },
+            {
+                path: 'client',
+                element: <Client />
             },
             {
                 path: 'register',

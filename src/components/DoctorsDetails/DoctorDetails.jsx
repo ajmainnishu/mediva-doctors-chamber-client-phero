@@ -8,7 +8,7 @@ const DoctorDetails = () => {
             <h2 className="text-center text-5xl py-10">Doctors Details</h2>
             <div className="grid grid-cols-3 gap-8">
                 {
-                    doctors.map(doctor => <div key={doctor._id} className="p-5 rounded-lg shadow">
+                    doctors?.map(doctor => <div key={doctor._id} className="p-5 rounded-lg shadow">
                         <img src={doctor.img} alt="" className="rounded-lg mb-5" />
                         <div className="flex justify-between items-center">
                             <p>{doctor.name}</p>
